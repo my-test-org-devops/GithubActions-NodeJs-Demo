@@ -18,7 +18,7 @@ jobs:
       exclude: # don't execute these combinations
       - operating_system: ubuntu-latest
         artifact_name: artifact-node-windows
-      - operating_system: windows-lates
+      - operating_system: windows-latest
         artifact_name: artifact-node-ubuntu
     runs-on: ${{ matrix.operating_system }}
     steps: 
