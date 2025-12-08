@@ -1,5 +1,5 @@
 ---
-name: build nodejs application 
+name: build nodejs with matrix application 
 on:
  workflow_dispatch:
  push:
