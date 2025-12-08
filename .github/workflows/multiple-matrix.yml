@@ -1,5 +1,5 @@
 ---
-name: multiple matrix application 
+name: build nodejs application 
 on:
  workflow_dispatch:
  push:
@@ -38,5 +38,5 @@ jobs:
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: # we need to add a variable which changes as per the OS
+        name: $ {{ matrix.artifact_name }}# we need to add a variable which changes as per the OS
         path: dist/
