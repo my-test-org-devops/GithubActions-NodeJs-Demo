@@ -10,7 +10,7 @@ on:
      - master  
 jobs:
   job1:
-    continue-on-error: true # continue to run the job even if there is an error
+    continue-on-error: true # continue to run the job even if there is an error#
     strategy:
      matrix: # it is like a loop to repeat the steps on each operating_system value 
       operating_system: [ubuntu-latest,windows-latest]
