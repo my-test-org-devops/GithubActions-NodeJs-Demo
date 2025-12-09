@@ -11,7 +11,7 @@ on:
         - ubuntu-22.04
         - self-hosted
         - windows-latest
-    job-name:
+    jobs-name:
       description: "Enter the multiple jobs to run"
       required: true
       type: string
