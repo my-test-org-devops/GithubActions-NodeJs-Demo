@@ -1,4 +1,4 @@
-name: Multiple runners and chosse jobs
+name: input Multiple jobs
 on:
  workflow_dispatch:
   inputs:
